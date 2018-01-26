@@ -1,0 +1,209 @@
+@charset "utf-8";
+/* CSS Document */
+header {
+    text-align: center;
+    color: #fff;
+    background: #18bc9c;
+
+    position: fixed;
+    width:100%;
+    z-index: 1;
+    height: 88%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+.content-wrapper{
+    background-color: white;
+    top: 87%;
+    min-height: 12%;
+    position:absolute;
+    z-index: 2;
+    width: 100%;    
+}
+/* HERE ENDS THE MAGIC */
+header .container {
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+
+header img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+header .intro-text .name {
+    display: block;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+header .intro-text .skills {
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+
+.text {
+  font-size: 4rem;
+  font-weight: 900;
+  text-align: center;
+  margin: 4rem;
+  text-transform: uppercase;
+  animation: background-move 10s infinite;
+  background: url(https://blog.spoongraphics.co.uk/wp-content/uploads/2012/retro-pattern/triangle-pattern.jpg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes background-move {
+  0% {
+    background-position: 0% 0%;
+  }
+  25% {
+    background-position: 5% 10%;
+  }
+  50% {
+    background-position: 15% 15%;
+  }
+  75% {
+    background-position: 10% 5%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+}
+
+
+.gallery-title
+{
+    font-size: 36px;
+    color: #42B32F;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #42B32F;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #42B32F;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #42B32F;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;	
+}
+
+
+p,label{
+	font-family: 'Roboto', sans-serif;
+
+}
+
+
+#Contact-form{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	color: #000;
+}
+
+form{
+	margin: 30px auto;
+}
+
+.formtxtinput {
+    height: 50px;
+	align-content: center;
+
+}
+	
+.formtxtinput1 {
+    height: 50px;
+	align-content: center;
+}
+.formtxtinput2 {
+    height: 50px;
+	align-content: center;
+	
+}
+.submit{
+	width: 150px;
+	align-content: center;
+}
+
+/*Footer*/
+footer{
+	background: #E6E6E6;
+	height: 80px;
+	width: 100vw;
+
+}
+
+.brand-name {
+	padding-top: 30px;
+}
+
+footer  .fa{
+	font-size: 22px;
+}
+.social{
+	padding-top: 30px;
+}
+
+.fa-space{
+	padding-left: 20px;
+}
+/*Media Queries*/
+@media (max-width: 460px){
+	footer{
+		height: 120px;
+	}
+
+	.social{
+	padding-top: 10px;
+	float: left;
+	text-align: center;
+}
+}
