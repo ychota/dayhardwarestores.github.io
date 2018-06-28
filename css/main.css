@@ -54,7 +54,7 @@ header .intro-text .skills {
   margin: 4rem;
   text-transform: uppercase;
   animation: background-move 10s infinite;
-  background: url(https://blog.spoongraphics.co.uk/wp-content/uploads/2012/retro-pattern/triangle-pattern.jpg);
+  background: url(https://blog.spoongraphics.co.uk/wp-content/uploads/2016/05/pattern.png);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -117,7 +117,6 @@ header .intro-text .skills {
     text-align: center;
     color: #ffffff;
     background-color: #42B32F;
-
 }
 .btn-default:active .filter-button:active
 {
